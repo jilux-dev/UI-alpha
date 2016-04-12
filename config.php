@@ -1,10 +1,10 @@
 <?php 
 
     // These variables define the connection information for your MySQL database 
-    $username = "test-base"; 
-    $password = "test-base"; 
-    $host = "localhost"; 
-    $dbname = "test-base"; 
+    $username = "test-base"; // Username
+    $password = "test-base"; // Password
+    $host = "localhost";  // Hostname
+    $dbname = "test-base";  // Database name
     
     $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'); 
     try { $db = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", $username, $password, $options); } 
