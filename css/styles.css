@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+}
+
+.sidebar {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+
+.btn {
+	margin-bottom: 10px;
+}
+
+.btn-info {
+	background-color: #000;
+	border-color: #000;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #fff;
+    color: #000; 
+}
