@@ -75,7 +75,8 @@
 	
 	<div class="container">
 		<div class="row" >
-			
+			<!-- This will be a sticky container. Only the .php content will change without page reload on navigation click -->
+			<!-- Example click: settings - load settings.php -->
 			<?php include "main.php" ?>;
 			
 		</div>	
