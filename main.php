@@ -25,6 +25,8 @@
 <div class="col-md-10" >
 	<div class="row" >
 	
+	<!-- Frontpage newsweed/changelog/whatsamacallit -->
+	
 	<div class="col-lg-8 col-md-8 col-sm-8">
 				<h1>JLX-UI DEV 0.02b</h1>
 					<p>-</p>
@@ -34,17 +36,16 @@
 			</div>
 	</div>	
 		
-		<hr>
+	<hr>
 		
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 frame">
-				<span class="helper"></span><img class="img-circle img-responsive" src=" http://placehold.it/350x350"/>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8">
-				<h1>Yksityistilaisuudet</h1>
-					<p>Meiltä saat tarjoilut yksityistilaisuuksiin aina kakkukahveista monen ruokalajin illallisiin. Suunnittelemme tarjoilut aina yksilöllisesti asiakkaan toiveita kunnioittaen. Kahvilassamme pystymmme pitämään tilaisuuksia aina 30 henkilöön asti. 
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4 frame">
+			<span class="helper"></span><img class="img-circle img-responsive" src=" http://placehold.it/350x350"/>
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<h1>Yksityistilaisuudet</h1>
+				<p>Meiltä saat tarjoilut yksityistilaisuuksiin aina kakkukahveista monen ruokalajin illallisiin. Suunnittelemme tarjoilut aina yksilöllisesti asiakkaan toiveita kunnioittaen. Kahvilassamme pystymmme pitämään tilaisuuksia aina 30 henkilöön asti. 
 Voit myös vuokrata kauttamme aivan kahvilamme vieressä sijaitsevan Hakasalmen Huvilan käyttöösi isompia tilaisuuksia varten. Yksityistilaisuuksista ottakaa yhteyttä mieluiten sähköpostilla <a href="mailto:#">cafe.huvila@gmail.com</a> tai sivustolta löytyvän lomakkeen kautta.</p>
-			</div>
 		</div>
-		</div>
+	</div>
 </div>

@@ -23,9 +23,14 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	
+	<!-- Animate CSS -->
+	<link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+	
+	
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -76,7 +81,7 @@
 	<div class="container">
 		<div class="row" >
 			<!-- This will be a sticky container. Only the .php content will change without page reload on navigation click -->
-			<!-- Example click: settings - load settings.php -->
+			<!-- Example click navigation: settings - load settings.php -->
 			<?php include "main.php" ?>;
 			
 		</div>	
