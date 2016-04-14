@@ -1,6 +1,7 @@
 <?php 
-    require("config.php"); 
-    $submitted_username = ''; 
+// UI index file
+    require("config.php"); // Fetch config.php and use it
+    $submitted_username = ''; // MySQL starts
     if(!empty($_POST)){ 
         $query = " 
             SELECT 
@@ -34,7 +35,7 @@
             } 
         } 
 
-        if($login_ok){ 
+        if($login_ok){ // Do this if login credentials are OK
             unset($row['salt']); 
             unset($row['password']); 
             $_SESSION['user'] = $row;  
@@ -42,23 +43,19 @@
             die("Redirecting to: secret.php"); 
         } 
         else{ 
-            print("Login Failed."); 
+            print("Login Failed."); // Do this if login credentials FAILED
             $submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
         } 
     } 
 ?> 
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Jilux User Interface</title>
 
     <!-- Bootstrap Core CSS -->
