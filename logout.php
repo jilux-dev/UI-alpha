@@ -1,5 +1,5 @@
 <?php 
-    require("config.php"); 
+    require("config.php"); // Fetch config.php and use it
     unset($_SESSION['user']);
     header("Location: index.php"); 
     die("Redirecting to: index.php");
