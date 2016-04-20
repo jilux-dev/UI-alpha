@@ -14,7 +14,7 @@ function file_get_contents_curl($url)
 }
 
 $html = file_get_contents_curl("http://example.com/");
-
+<!-- hehz -->
 //parsing begins here:
 $doc = new DOMDocument();
 @$doc->loadHTML($html);
