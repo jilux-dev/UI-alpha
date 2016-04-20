@@ -2,10 +2,8 @@
 ----------------
 
 * v. 0.02a
-* v. 0.02b
- Added upload script file
-* v. 0.02c
- Added validate.js (validator) file
+* v. 0.02b (added upload script files)
+* v. 0.02c (added validate.js script file)
 
 
 
