@@ -1,5 +1,5 @@
 <div class="sidebar col-md-2">
-
+<!-- This is the next project step -->
 	<nav id="navbar-side" class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#SideBar">
