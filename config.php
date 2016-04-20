@@ -1,5 +1,5 @@
 <?php 
-    // config file for UI
+    // config file for UI (obsolete?)
     // These variables define the connection information for your MySQL database 
     $username = "test-base"; // Username
     $password = "test-base"; // Password
