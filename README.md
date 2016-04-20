@@ -1,4 +1,4 @@
-# JLX UI-alpha v. 0.02b
+# JLX UI-alpha v. 0.02c
 ----------------
 
 * v. 0.02a
