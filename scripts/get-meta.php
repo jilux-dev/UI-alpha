@@ -1,3 +1,4 @@
+<?php 
 function file_get_contents_curl($url)
 {
     $ch = curl_init();
@@ -37,3 +38,5 @@ for ($i = 0; $i < $metas->length; $i++)
 echo "Title: $title". '<br/><br/>';
 echo "Description: $description". '<br/><br/>';
 echo "Keywords: $keywords";
+// This file may be obsolete, because get_meta_tags..
+?>  
