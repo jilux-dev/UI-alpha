@@ -24,24 +24,12 @@
 
 <div class="col-md-10" >
 	<div class="row" >
-	<div class="col-lg-8 col-md-8 col-sm-8">
-				<h1>JLX-UI Alpha v. 0.02c</h1>
-					<p>Welcome</p>
-</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 frame">
-				<span class="helper"></span><img class="img-circle img-responsive" src=" http://placehold.it/350x350"/>
-			</div>
-	</div>	
-		
-	<hr>
-		
-	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<h1>JLX-UI Alpha v. 0.02c</h1>
+		<p>Welcome</p>
+		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4 frame">
 			<span class="helper"></span><img class="img-circle img-responsive" src=" http://placehold.it/350x350"/>
 		</div>
-		<div class="col-lg-8 col-md-8 col-sm-8">
-			<h1>Yksityistilaisuudet</h1>
-				<p>999</p>
-		</div>
-	</div>
+	</div>	
 </div>
