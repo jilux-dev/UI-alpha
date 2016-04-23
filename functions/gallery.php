@@ -20,28 +20,28 @@
 </div>
 
 <div class="col-md-10" >
-	<?php 
-		$image_folder = "images";
+	<?php
+		
+		$image_folder = "images";	#TODO: get images folder based on MySQL user_name
 		$directories = glob($image_folder . '/*' , GLOB_ONLYDIR); 
 		
 		
-			foreach($directories as $images) { 
+			foreach($directories as $images) { #Check each direcotry for...
 			
-			if ( glob($images . "*.jpg")){			
+			if ( glob($images . "*.jpg")){ #... Images if *.jpg do folder thumbnail		
 				
 				  ?>
 				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 					<a class="thumbnail" href="#">
 						<img class="img-responsive" src="http://placehold.it/400x300" alt="">
 					</a>
-					<p class="text-center" >No images found</p>
 				</div>
-				<?php } else { ?>
+				<?php } else { #else no images found show text ?> 
 				<div class="col-lg-3 col-md-4 col-xs-6">
 					
 					<p class="text-center" >No images found</p> 
 				</div>
 			<?php	}
-		}
+		} 
 	?>	
 </div>
