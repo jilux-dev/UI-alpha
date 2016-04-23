@@ -17,7 +17,7 @@ TODO
 * Upload.php: Style upload.php with bootstrap
 * Secret.php: Add navigation "modules" based on MySQL "user_name , modules"
 * Secret.php: Add ajax function to navigation + other buttons(example = click navigation(id=front_page) load front_page.php with ajax
-* 
+
 -------------------------
 
 
