@@ -26,9 +26,9 @@
 		$directories = glob($image_folder . '/*' , GLOB_ONLYDIR); 
 		
 		
-			foreach($directories as $images) { #Check each direcotry for...
+			foreach($directories as $images) { #Check each directory for...
 			
-			if ( glob($images . "*.jpg")){ #... Images if *.jpg do folder thumbnail		
+			if ( glob($images . "*.jpg")){ #... Images if *.jpg, then do folder thumbnail		
 				
 				  ?>
 				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -39,7 +39,7 @@
 				<?php } else { #else no images found show text ?> 
 				<div class="col-lg-3 col-md-4 col-xs-6">
 					
-					<p class="text-center" >No images found</p> 
+					<p class="text-center" >No images found</p>
 				</div>
 			<?php	}
 		} 
