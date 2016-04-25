@@ -119,6 +119,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
 	
+	<!-- Validate JavaScript -->
+	<script src="js/validate.js"></script>
+	
 	<!-- Custom JS -->
 	<script scr="js/scripts.js"></script>
 
