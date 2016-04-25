@@ -45,7 +45,7 @@
 	
 	<div class="container" >
 		<div class="row">
-			<h1 class="text-center" >Jilux User Interface 0.0.4 alpha</h1>
+			<h1 class="text-center" >Jilux User Interface 0.0.2c alpha</h1>
 			<nav id="navbar-main" class="navbar navbar-default">
 				
 					<div class="navbar-header">
