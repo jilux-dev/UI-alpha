@@ -1,3 +1,13 @@
+<?php
+// secret.php 2016/04/12
+
+    require("config.php");
+    if(empty($_SESSION['user'])) 
+    {
+        header("Location: index.php");
+        die("Redirecting to index.php"); 
+    }
+?>
 <div class="sidebar col-md-2">
 <!-- This is the next project step -->
 	<nav id="navbar-side" class="navbar navbar-default">
