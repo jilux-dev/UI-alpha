@@ -12,7 +12,8 @@
 		<div>
 			<div class="collapse navbar-collapse" id="SideBar">
 				<ul class="nav navbar-nav">
-					<li><a id="#upload_images" class="navbutton" >Upload Images</a></li>					
+					<li><a id="#upload_images" class="navbutton" >Upload Images</a></li>	
+					<li><a id="#add_category" class="navbutton" >Add Category</a></li>						
 				</ul>
 			</div>
 		</div>
@@ -25,26 +26,31 @@
 		$image_folder = "images";	#TODO: get images folder based on MySQL user_name
 		$directories = glob($image_folder . '/*' , GLOB_ONLYDIR); 
 		
-		if (empty ($directories)) {
+		if (!empty ($directories)) {
 		
-			foreach($directories as $images) { #Check each directory for...
+			foreach($directories as $categories) { #Check each directory for...
 			
-			if ( glob($images . "*.jpg")){ #... Images if *.jpg, then do folder thumbnail		
+			$category_explode = explode("/",$categories);
+			$category_name = $category_explode['1'];
+			
+			if ( glob($categories . "*.jpg")){ #... If category contains *.jpg, then do folder thumbnail		
 				
 				  ?>
 				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 					<a class="thumbnail" href="#">
-						<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+						<img class="img-responsive" src="http://placehold.it/350x150" alt="">
 					</a>
 				</div>
 				<?php } else { #else no images found show text ?> 
 				<div class="col-lg-3 col-md-4 col-xs-6">
 					
-					<p class="text-center" >No images found</p>
+					<p class="text-center" >No images found | <?php echo $category_name  ?></p>
 				</div>
 			<?php	}
 			} 
 		} else { ?>
-				<h1 class="text-center" >No images or categories found !</h1> <?php }
+				<h1 class="text-center" >No images or categories found !</h1> 
+				<p class="text-center" >First <a href="#add_category">Add category</a> to start with ur image gallery</p>
+				<?php }
 	?>	
 </div>
