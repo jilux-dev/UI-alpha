@@ -8,7 +8,7 @@
         die("Redirecting to index.php"); 
     }
 ?>
-<div class="sidebar col-md-2">
+<div class="sidebar col-md-1">
 <!-- This is the next project step -->
 	<nav id="navbar-side" class="navbar navbar-default">
 		<div class="navbar-header">
@@ -30,7 +30,7 @@
 	</nav>	
 </div>
 
-<div class="col-md-10" >
+<div class="col-md-11" >
 	<?php
 		
 		$image_folder = "images";	#TODO: get images folder based on MySQL user_name
@@ -46,15 +46,17 @@
 			if ( glob($categories . "*.jpg")){ #... If category contains *.jpg, then do folder thumbnail		
 				
 				  ?>
-				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+				<div class="col-lg-2 col-md-2 col-xs-6 thumb">
 					<a class="thumbnail" href="#">
 						<img class="img-responsive" src="http://placehold.it/350x150" alt="">
 					</a>
 				</div>
 				<?php } else { #else no images found show text ?> 
-				<div class="col-lg-3 col-md-4 col-xs-6">
-					
-					<p class="text-center" >No images found | <?php echo $category_name  ?></p>
+				<div class="col-lg-2 col-md-2 col-xs-6">
+					<a class="thumbnail" href="#">
+					<img class="img-responsive" src="http://placehold.it/350x350" alt="">
+					</a>
+					<p class="text-center" >No images found | <a href="<?php echo $category_name  ?>" ><?php echo $category_name  ?></a></p>
 				</div>
 			<?php	}
 			} 

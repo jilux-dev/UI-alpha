@@ -1,5 +1,54 @@
 html, body {
 	height: 100%;
+	
+}
+
+.container-fluid{
+	width: 90%;
+}
+
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {
+	.container-fluid{
+	width: 90%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+	.container-fluid{
+	width: 90%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+	.container-fluid{
+	width: 95%;
+	}	
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 480px) {
+.container-fluid{
+	width: 100%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media  (max-width : 320px) {
+	.container-fluid{
+	width: 100%;
+}
+}
+
+h1, h2 {
+	font-family: 'Dosis', sans-serif;
+}
+
+a, p {
+	font-size: 1.2em;
+	font-family: 'Dosis', sans-serif;
 }
 
 .sidebar {

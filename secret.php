@@ -20,6 +20,9 @@
     <meta name="author" content="">
 
     <title>Jilux User Interface</title>
+	
+	<!-- Custom Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -78,7 +81,7 @@
 	</div>
 	
 	
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row" >
 			<!-- This will be a sticky container. Only the .php content will change without page reload on navigation click -->
 			<!-- Example click navigation: settings - load settings.php -->

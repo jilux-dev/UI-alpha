@@ -57,9 +57,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Jilux User Interface</title>
+	
+	<!-- Custom Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+	
+	<!-- Animate CSS -->
+	<link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
@@ -82,7 +88,7 @@
         
        <form class="form-signin" method="post" id="login-form">
       
-        <h2 class="form-signin-heading">Welcome to Jilux User Interface</h2><hr />
+        <h2 class="text-center form-signin-heading">Welcome to Jilux User Interface</h2><hr />
 			
         <div id="error">
         <!-- error will be shown here ! -->
