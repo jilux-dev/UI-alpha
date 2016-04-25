@@ -59,7 +59,7 @@
     <title>Jilux User Interface</title>
 	
 	<!-- Custom Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
