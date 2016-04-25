@@ -75,23 +75,41 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">   
 	
-	<div class="container" >
-		<div class="row">
-			<div class="col-md-12" >
-				<h1 class="text-center" >Welcome to Jilux User Interface!</h1>
-					<p class="text-center" >Please login with given credentials</p>
-		 <form action="index.php" method="post"> 
-                    Username:<br /> 
-                    <input type="text" name="username" value="<?php echo $submitted_username; ?>" /> 
-                    <br /><br /> 
-                    Password:<br /> 
-                    <input type="password" name="password" value="" /> 
-                    <br /><br /> 
-                    <input type="submit" class="btn btn-info" value="Login" /> 
-                </form> 
-				</div>
-		</div>	
-	</div>
+	<div class="signin-form">
+
+	<div class="container">
+     
+        
+       <form class="form-signin" method="post" id="login-form">
+      
+        <h2 class="form-signin-heading">Welcome to Jilux User Interface</h2><hr />
+			
+        <div id="error">
+        <!-- error will be shown here ! -->
+        </div>
+        
+        <div class="form-group">
+        <input type="username" class="form-control" placeholder="Username" name="username" id="username" />
+     
+        </div>
+        
+        <div class="form-group">
+        <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
+        </div>
+       
+     	<hr />
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+				<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
+			</button> 
+        </div>  
+      
+      </form>
+
+    </div>
+    
+</div>
 	
 	
 

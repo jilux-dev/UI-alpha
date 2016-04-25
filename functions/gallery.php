@@ -25,6 +25,7 @@
 		$image_folder = "images";	#TODO: get images folder based on MySQL user_name
 		$directories = glob($image_folder . '/*' , GLOB_ONLYDIR); 
 		
+		if (empty ($directories)) {
 		
 			foreach($directories as $images) { #Check each directory for...
 			
@@ -42,6 +43,8 @@
 					<p class="text-center" >No images found</p>
 				</div>
 			<?php	}
-		} 
+			} 
+		} else { ?>
+				<h1 class="text-center" >No images or categories found !</h1> <?php }
 	?>	
 </div>

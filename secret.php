@@ -45,7 +45,7 @@
 	
 	<div class="container" >
 		<div class="row">
-			<h1 class="text-center" >Jilux User Interface 0.0.2 alpha</h1>
+			<h1 class="text-center" >Jilux User Interface 0.0.4 alpha</h1>
 			<nav id="navbar-main" class="navbar navbar-default">
 				
 					<div class="navbar-header">
@@ -82,7 +82,7 @@
 		<div class="row" >
 			<!-- This will be a sticky container. Only the .php content will change without page reload on navigation click -->
 			<!-- Example click navigation: settings - load settings.php -->
-			<?php include "main.php" ?>;
+			<?php include "functions/gallery.php" ?>
 			
 		</div>	
 	</div>
