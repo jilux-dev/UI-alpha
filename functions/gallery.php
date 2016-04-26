@@ -61,7 +61,7 @@
 			<?php	}
 			} 
 		} else { ?>
-				<h1 class="text-center" >No images or categories found !</h1> 
+				<h1 class="text-center" >No images or categories found !</h1> <!-- Print error message -->
 				<p class="text-center" >First <a href="#add_category">Add category</a> to start with ur image gallery</p>
 				<?php }
 	?>	
