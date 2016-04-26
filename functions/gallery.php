@@ -29,7 +29,7 @@
 		</div>
 	</nav>	
 </div>
-<!-- :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD -->
+
 <div class="col-md-11" >
 	<?php
 		
