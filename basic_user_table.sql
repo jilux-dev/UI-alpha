@@ -1,6 +1,6 @@
 -- Basic user info Willux needs to complete this --
 
-CREATE TABLE `jlx-clients` (
+CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,	-- BASIC USER ID
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL, --AS IN WEBSITE NAME (EXAMPLE JILUX.FI)
   `password` char(64) COLLATE utf8_unicode_ci NOT NULL, -- USER PASSWORD
