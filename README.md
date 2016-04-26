@@ -7,6 +7,7 @@
 * v. 0.02a
 * v. 0.02b (added upload script files)
 * v. 0.02c (added validate.js script file)
+* v. 0.02d (added dropzone.js, added paths, added more reliability to gallery.php and much more...)
 
 ------------------------
 
