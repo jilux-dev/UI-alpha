@@ -1,8 +1,8 @@
 <?php
 // secret.php 2016/04/12
 
-    require("config.php");
-    if(empty($_SESSION['user'])) 
+    require("config.php"); // Fetch config.php and use it!
+    if(empty($_SESSION['user']))
     {
         header("Location: index.php");
         die("Redirecting to index.php"); 
@@ -29,7 +29,7 @@
 		</div>
 	</nav>	
 </div>
-
+<!-- :DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD -->
 <div class="col-md-11" >
 	<?php
 		
