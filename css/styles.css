@@ -3,7 +3,7 @@ html, body {
 	
 }
 
-#myModal {
+#category_modal, #upload_modal {
     width: 100%;
     position: absolute;
     top: 33%;

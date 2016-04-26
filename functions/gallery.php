@@ -22,8 +22,8 @@
 		<div>
 			<div class="collapse navbar-collapse" id="SideBar">
 				<ul class="nav navbar-nav">
-					<li><a id="#upload_images" class="navbutton" >Upload Images</a></li>	
-					<li><a class="navbutton" href="#add_category" data-toggle="modal" data-target="#myModal" >Add Category</a></li>						
+					<li><a class="navbutton" data-toggle="modal" data-target="#upload_modal" >Upload images</a></li>	
+					<li><a class="navbutton" data-toggle="modal" data-target="#category_modal" >Add Category</a></li>						
 				</ul>
 			</div>
 		</div>
@@ -62,27 +62,50 @@
 			} 
 		} else { ?>
 				<h1 class="text-center" >No images or categories found !</h1> <!-- Print error message -->
-				<p class="text-center" >First <a href="#add_category" data-toggle="modal" data-target="#myModal">Add category</a> to start with ur image gallery</p>
+				<p class="text-center" >First <a href="#add_category" data-toggle="modal" data-target="#category_modal">Add category</a> to start with ur image gallery</p>
 				<?php }
 	?>	
 </div>
 
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div id="category_modal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Add Category</h4>
-      </div>
-      <div class="modal-body">
-        <input type="text" class="form-control" placeholder="Name your category" name="category_name" id="category_name" />
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Add Category</h4>
+		  </div>
+		  <div class="modal-body">
+			<input type="text" class="form-control" placeholder="Name your category" name="category_name" id="category_name" />
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
 
-  </div>
+	</div>
 </div>
+
+<div id="upload_modal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Upload images</h4>
+		  </div>
+		  <div class="modal-body">
+			<p class="text-center" >!!! INSERT IMAGE DROP BOX HERE !!!</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+
+	</div>
+</div>
+
+
+
