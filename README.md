@@ -1,4 +1,4 @@
-# JLX UI-alpha v. 0.02c
+# JLX UI-alpha v. 0.02d
 
 ![JILUX](https://raw.githubusercontent.com/jilux-dev/UI-alpha/master/images/xman-2.jpg)
 
