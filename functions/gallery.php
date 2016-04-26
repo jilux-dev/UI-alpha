@@ -8,7 +8,7 @@
         die("Redirecting to index.php"); 
     }
 ?>
-<div class="sidebar col-md-1">
+<div class="sidebar col-md-2">
 <!-- This is the next project step -->
 	<nav id="navbar-side" class="navbar navbar-default">
 		<div class="navbar-header">
@@ -23,14 +23,14 @@
 			<div class="collapse navbar-collapse" id="SideBar">
 				<ul class="nav navbar-nav">
 					<li><a id="#upload_images" class="navbutton" >Upload Images</a></li>	
-					<li><a id="#add_category" class="navbutton" >Add Category</a></li>						
+					<li><a class="navbutton" href="#add_category" data-toggle="modal" data-target="#myModal" >Add Category</a></li>						
 				</ul>
 			</div>
 		</div>
 	</nav>	
 </div>
 
-<div class="col-md-11" >
+<div class="col-md-10" >
 	<?php
 		
 		$image_folder = "images";	#TODO: get images folder based on MySQL user_name
@@ -62,7 +62,27 @@
 			} 
 		} else { ?>
 				<h1 class="text-center" >No images or categories found !</h1> <!-- Print error message -->
-				<p class="text-center" >First <a href="#add_category">Add category</a> to start with ur image gallery</p>
+				<p class="text-center" >First <a href="#add_category" data-toggle="modal" data-target="#myModal">Add category</a> to start with ur image gallery</p>
 				<?php }
 	?>	
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Category</h4>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Name your category" name="category_name" id="category_name" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>
