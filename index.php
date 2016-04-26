@@ -122,13 +122,16 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Bootstrap JavaScript -->
     <script src="js/bootstrap.js"></script>
 	
 	<!-- Validate JavaScript -->
 	<script src="js/validate.js"></script>
 	
-	<!-- Custom JS -->
+	<!-- Dropzone JavaScript -->
+    <script src="js/dropzone.js"></script>
+	
+	<!-- Custom JavaScript -->
 	<script scr="js/scripts.js"></script>
 
 </body>
