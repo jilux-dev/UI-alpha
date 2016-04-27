@@ -48,7 +48,7 @@
 	
 	<div class="container" >
 		<div class="row">
-			<h1 class="text-center" >Jilux User Interface 0.0.2c alpha</h1>
+			<h1 class="text-center" >Jilux User Interface 0.0.2f alpha</h1>
 			<nav id="navbar-main" class="navbar navbar-default">
 				
 					<div class="navbar-header">
@@ -62,13 +62,15 @@
 					<div>
 					  <div class="collapse navbar-collapse" id="MainBar">
 						<ul class="nav navbar-nav navbar-left">
+						<!-- For each user get modules and do <li><a href="DESIRED PATH.php">DESIRED path</a></li> -->
 						  <li><a href="secret.php">Frontpage</a></li>
 						  <li><a href="gallery.php">Gallery</a></li>
-						  <li><a href="#posts">Posts</a></li>
+						  <li><a href="posts.php">Posts</a></li>
+						  <li><a href="invoice.php">Invoice</a></li>
 						</ul>
 						
 						<ul class="nav navbar-nav navbar-right">
-						  <li><a href="#settings">Settings</a></li>
+						  <li><a href="settings.php">Settings</a></li>
 						  
 						<li><a href="logout.php">Log Out</a></li>
 							
@@ -85,7 +87,7 @@
 		<div class="row" >
 			<!-- This will be a sticky container. Only the .php content will change without page reload on navigation click -->
 			<!-- Example click navigation: settings - load settings.php -->
-			<?php include "functions/gallery.php" ?>
+			
 			
 		</div>	
 	</div>
