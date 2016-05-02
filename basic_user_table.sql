@@ -5,10 +5,14 @@ CREATE TABLE `users` (
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL, --AS IN WEBSITE NAME (EXAMPLE JILUX.FI)
   `password` char(64) COLLATE utf8_unicode_ci NOT NULL, -- USER PASSWORD
   `salt` char(16) COLLATE utf8_unicode_ci NOT NULL, -- SALTED PASSWORD
-  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL, -- USER EMAIL
+  `usercategory` char(16) COLLATE utf8_unicode_ci NOT NULL, -- USER CATEGORY AS IN CLIENT, ADMIN, USER, HOST etc
   
 -- NEEDS TO BE DONE --  
   `modules` char(16) COLLATE utf8_unicode_ci NOT NULL, -- CLIENT PURCHASED MODULES (GALLERY, BLOG TOOL, INVOICE ETC.)
+  `client_name`  char(16) COLLATE utf8_unicode_ci NOT NULL, -- CLIENT REAL NAME (EXAMPLE: Matti Nykänen)
+  `client_address` char(16) COLLATE utf8_unicode_ci NOT NULL, -- CLIENT REAL ADDRESS (EXAMPLE: Matinkänninentie 11 A 666)
+  `client_phone` char(16) COLLATE utf8_unicode_ci NOT NULL, -- CLIENT REAL PHONE (EXAMPLE: 13376662007 )
+  `client_email` varchar(255) COLLATE utf8_unicode_ci NOT NULL, -- USER EMAIL (!!!!! ATM ITS JUST EMAIL IN TABLE !!!!)
   
 -- DO THE ABOVE --
 
