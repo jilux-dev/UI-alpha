@@ -19,11 +19,9 @@ TODO
 
 * Gallery.php: Get image dir based on MySQL user_name (example = jilux.fi/images)
 * Gallery.php: Add categories (create categories as folders inside image dir) based on MySQL user_name (example = jilux.fi/images/putina) and show random preview as thumbnail (if no img, show "no images")
-
 * Upload.php: Complete upload.php with the following: Upload multiple images with small preview & thumbnail(?).
 * Upload.php: Multiple image upload to categories
 * Upload.php: Style upload.php with bootstrap
-
 * Secret.php: Add navigation "modules" based on MySQL "user_name , modules"
 * Secret.php: Add AJAX function to navigation + other buttons(example = click navigation(id=front_page) load front_page.php with AJAX
 
