@@ -1,6 +1,5 @@
 -- Basic user info. Willux needs to complete this --
---
--- MUST LEEEEEEEEEEERN MYSQL :-) t. bnft
+-- MUST LEEEEEEEEEEERN MYSQL :-) t. bnft --
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,	-- BASIC USER ID
