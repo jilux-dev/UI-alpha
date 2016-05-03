@@ -1,5 +1,5 @@
 <?php
-// secret.php 2016/04/12
+// secret.php
 
     require("config.php");
     if(empty($_SESSION['user'])) 
