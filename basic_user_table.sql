@@ -1,4 +1,7 @@
--- Basic user info Willux needs to complete this --
+-- Basic user info. Willux needs to complete this --
+--
+-- MUST LEEEEEEEEEEERN MYSQL :-) t. bnft
+
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,	-- BASIC USER ID
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL, --AS IN WEBSITE NAME (EXAMPLE JILUX.FI)
